@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expPro5</title>
+    <link rel="stylesheet" href="file/css/style.css">
+    <script src="file/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="file/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="file/css/bootstrap.min.css" />
+    <script src="file/js/bootstrap.min.js"></script>
+    <style>
+    
+      @font-face{
+          font-family: 'FontMan1';
+          src: url('file/myfont/Vazir.ttf') format('truetype'),
+          url('file/myfont/Vazir.woff') format('woff'),
+          url('file/myfont/Vazir.woff2') format('woff2');
+        }
+
+      body{
+          font-family:FontMan1;
+        }
+    </style>
+</head>
+<body >
+
+<!--menu-->
+  <nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="#">🤨</a>
+    <button class="navbar-toggler btn-sm border-0 text-light navbar-dark" id="menubut" style="color: rgb(216, 184, 0);background-color: rgb(216, 184, 0);" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon text-light" id="menuicon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-lg-flex justify-content-lg-around" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+     
+        <li class="nav-item dropdown mx-lg-5 order-3 order-lg-1" >
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            بیشتر
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="file/singin.html">ثبت نام</a>
+            <a class="dropdown-item" href="file/login.html">ورود</a>
+           
+          </div>
+        </li>
+
+        <li class="nav-item mx-lg-5 order-2 order-lg-2">
+          <a class="nav-link" href="file/about.html">ارتباط با ما</a>
+        </li>
+        <li class="nav-item mx-lg-5 order-1 order-lg-3">
+          <a class="nav-link" href="#">خانه <span class="sr-only">(current)</a>
+        </li>
+
+      </ul>
+    </div>
+   
+  </nav>
+  <!--/menu-->
+
+  <!--baner-->
+  <div id="carouselCaptions1" class="carousel slide mt-5" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselCaptions1" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselCaptions1" data-slide-to="1"></li>
+      <li data-target="#carouselCaptions1" data-slide-to="2"></li>
+      <li data-target="#carouselCaptions1" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="file/pic/p1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>نمایش اسلاید اول</h5>
+          <p>متن توضیحات مربوط به اسلاید نمایش داده شده درج خواهد شد</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="file/pic/p2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>نمایش اسلاید دوم</h5>
+          <p>متن توضیحات مربوط به اسلاید نمایش داده شده درج خواهد شد</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="file/pic/p1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>نمایش اسلاید سوم</h5>
+          <p>متن توضیحات مربوط به اسلاید نمایش داده شده درج خواهد شد</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="file/pic/p2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>نمایش اسلاید چهارم</h5>
+          <p>متن توضیحات مربوط به اسلاید نمایش داده شده درج خواهد شد</p>
+        </div>
+      </div>
+    </div>
+ 
+  </div>
+  <!--/baner-->
+<div class="container">
+  <!--alert-->
+  <div class="alert alert-warning alert-dismissible fade show offset-2 col-8 box2" style="margin-top: 85px;" role="alert">
+
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <strong>توجه ! این صفحه طراحی ساده تعدادی عناصر در قالب صفحه اصلی میباشد</strong>
+  </div>
+  <!--/alert-->
+
+  <!--cards group-->
+  <div class="card-group" style="margin-top: 85px;">
+    <div class="card text-center mycard1">
+      <img src="file/pic/p4.jpg" class="card-img-top" alt="...">
+      <div class="card-body ">
+        <h5 class="card-title">شکوفه های صورتی</h5>
+        <p class="card-text">
+          بررسی و ارائه توضیح پیرامون زیبایی شکوفه های صورتی و تاثیر رنگ ان در زیبایی دوچندانش و ارائه مطالب مرتبط با تصویر
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">شکوفه های سفید</h5>
+        <p class="card-text">
+          اشنایی با شکوفه های سفید و بررسی موضوعات پیرامون تصویر ارائه شده و درک بهتر آن
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">طبیعت شهری</h5>
+        <p class="card-text">
+          یک توضیح نمونه در رابطه با طبیعت شهری و بررسی موضوع تصویر برای تکمیل محتوا و نمایش بهتر به مخاطب
+         </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-group mt-5">
+    <div class="card text-center mycard1">
+      <img src="file/pic/p3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">شکوفه های سفید</h5>
+        <p class="card-text">
+          اشنایی با شکوفه های سفید و بررسی موضوعات پیرامون تصویر ارائه شده و درک بهتر آن
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">طبیعت شهری</h5>
+        <p class="card-text">
+          یک توضیح نمونه در رابطه با طبیعت شهری و بررسی موضوع تصویر برای تکمیل محتوا و نمایش بهتر به مخاطب
+         </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">شکوفه های صورتی</h5>
+        <p class="card-text">
+          بررسی و ارائه توضیح پیرامون زیبایی شکوفه های صورتی و تاثیر رنگ ان در زیبایی دوچندانش و ارائه مطالب مرتبط با تصویر
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-group mt-5">
+    <div class="card text-center mycard1">
+      <img src="file/pic/p4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">شکوفه های صورتی</h5>
+        <p class="card-text">
+          بررسی و ارائه توضیح پیرامون زیبایی شکوفه های صورتی و تاثیر رنگ ان در زیبایی دوچندانش و ارائه مطالب مرتبط با تصویر
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">شکوفه های سفید</h5>
+        <p class="card-text">
+          اشنایی با شکوفه های سفید و بررسی موضوعات پیرامون تصویر ارائه شده و درک بهتر آن
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+    <div class="card text-center mycard1">
+      <img src="file/pic/p2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">طبیعت شهری</h5>
+        <p class="card-text">
+         یک توضیح نمونه در رابطه با طبیعت شهری و بررسی موضوع تصویر برای تکمیل محتوا و نمایش بهتر به مخاطب
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">آخرین بروزرسانی دقایقی پیش</small>
+      </div>
+    </div>
+  </div>
+  <!--/card group-->
+</div>
+
+ <!--card-->
+<div class="card text-center bg-light mycard2 mt-5 text-dark">
+  <div class="card-header">
+    عنوان
+  </div>
+  <div class="card-body ">
+    <h5 class="card-title">تیتر بررسی موضوع</h5>
+    <p class="card-text">ارائه توضیحات مختصر و معرفی اجمالی مطلب جهت بررسی بیشتر</p>
+    <a href="#" class="btn btn-dark">اطلاعات بیشتر</a>
+  </div>
+
+</div>
+
+<!--/card-->
+  
+<!--comment-->
+<div class="container">
+  <form class="text-light d-flex flex-column align-items-center justify-content-center mt-5">
+    <div class="form-row  text-right">
+      <div class="form-group col-6">
+        <label for="inputEmail4">نام</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="form-group col-6">
+        <label for="inputPassword4">فامیلی</label>
+        <input type="text" class="form-control" id="inputPassword4">
+      </div>
+    
+    <div class="form-group col-12 text-right">
+      <label for="inputAddress">نظر</label>
+      <input type="text" class="form-control text-right" id="inputAddress" placeholder="پیشنهادات و انتقادات">
+    </div>
+ 
+  </div>
+    <button type="submit" class="btn btn-dark col-6"> ارسال</button>
+  </form>
+</div>
+<!--/comment-->
+
+<!--footer-->
+<div class="myfooter mt-5 d-flex justify-content-around ">
+    <div class="circle-wrapper">
+      <div class="iconcolor1 circle"></div>
+      <div class="icon">      
+        <i href="#" class="fa fa-facebook"></i>
+      </div>
+    </div>
+
+    <div class="circle-wrapper">
+      <div class="iconcolor1 circle"></div>
+      <div class="icon">      
+        <i href="#" class="fa fa-twitter"></i>
+      </div>
+    </div>
+
+    <div class="circle-wrapper">
+      <div class="iconcolor1 circle"></div>
+      <div class="icon">      
+        <i href="#" class="fa fa-instagram"></i>
+      </div>
+    </div>
+  
+</div>
+<!--/footer-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+</html>
